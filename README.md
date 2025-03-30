@@ -43,19 +43,7 @@ In this section, we derive the average PAoI for the multiple vacation queue unde
 \[
 \varTheta = \{ (0,0) \} \cup \{ (k,j) : k \geq 1,\; j=0,1 \}.
 \]
-Here, \( N(t) \) denotes the number of packets in the system and \( J(t) \) indicates the mode (with \( J(t)=1 \) for active and \( J(t)=0 \) for idle). Let \( \boldsymbol{Q}_A \) be the transition rate matrix whose element \( q_{(i,j),(k,z)} \) represents the transition rate from state \( (i,j) \) to \( (k,z) \). In Fig. 2, the two-dimensional Markov chain is illustrated. Let \( f_{i,j} \) denote the transition rate caused by the AQM during idle mode: when \( i \geq 1, \, j=0 \), \( f_{i,j} = \gamma \alpha^{i+1} \); when \( i > j > 0 \), \( f_{i,j} = \gamma \alpha^{i-j}\beta \); otherwise, \( f_{i,j} = 0 \). Thus, the transition rate matrix \( \boldsymbol{Q}_A \) is given by
-
-\[
-\boldsymbol{Q}_A=\begin{pmatrix}
-\boldsymbol{B}_0 & \boldsymbol{C}_0 & \,& \,& \,& \, \\
-\boldsymbol{B}_1 & \boldsymbol{A}_1 & \boldsymbol{A}_0 & \,& \,& \, \\
-\boldsymbol{B}_2 & \boldsymbol{A}_2 & \boldsymbol{A}_1 & \boldsymbol{A}_0 & \,& \, \\
-\boldsymbol{B}_2 & \boldsymbol{A}_3 & \boldsymbol{A}_2 & \boldsymbol{A}_1 & \boldsymbol{A}_0 & \, \\
-\vdots & \vdots & \vdots & \vdots & \vdots & \ddots \\
-\end{pmatrix},
-\]
-  
-where \( \boldsymbol{A}_0 = \operatorname{diag}(\lambda,\lambda) \), \( \boldsymbol{C}_0 = (0,\lambda) \), \( \boldsymbol{B}_0 = (\mu,\,\gamma \alpha)^{\mathsf{T}} \), and for \( i \geq 1 \), \( \boldsymbol{B}_i = (0,\,\gamma \alpha^{i+1})^{\mathsf{T}} \).
+Here, \( N(t) \) denotes the number of packets in the system and \( J(t) \) indicates the mode (with \( J(t)=1 \) for active and \( J(t)=0 \) for idle). Let \( \boldsymbol{Q}_A \) be the transition rate matrix whose element \( q_{(i,j),(k,z)} \) represents the transition rate from state \( (i,j) \) to \( (k,z) \). In Fig. 2, the two-dimensional Markov chain is illustrated. Let \( f_{i,j} \) denote the transition rate caused by the AQM during idle mode: when \( i \geq 1, \, j=0 \), \( f_{i,j} = \gamma \alpha^{i+1} \); when \( i > j > 0 \), \( f_{i,j} = \gamma \alpha^{i-j}\beta \); otherwise, \( f_{i,j} = 0 \).
 
 ---
 

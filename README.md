@@ -1,4 +1,4 @@
-# Average Peak Age of Information (PAoI) Simulation with Sleep-Scheduling and AQM
+# Average Peak Age of Information in Underwater Information Collection With Sleep-Scheduling
 
 This repository contains MATLAB code that accompanies the paper:
 

@@ -7,6 +7,8 @@ Fang, Zhengru; Wang, Jingjing; Jiang, Chunxiao; Wang, Xijun; Ren, Yong
 *IEEE Transactions on Vehicular Technology*, May 2022  
 DOI: [10.1109/TVT.2022.3176819](https://doi.org/10.1109/TVT.2022.3176819)
 
+- [Full Paper (PDF)](https://www.researchgate.net/publication/360698689_Average_Peak_Age_of_Information_in_Underwater_Information_Collection_with_Sleep-scheduling)
+
 ---
 
 ## Overview
